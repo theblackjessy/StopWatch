@@ -1,0 +1,61 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(255, 192, 247);
+    min-height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+div{
+    min-width: 30%;
+    min-height: 40vh;
+    padding: 40px 0 ;
+    box-shadow: 5px 0px 5px 5px rgb(234, 154, 154);
+}
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+
+}
+ul li{
+    margin:0 10px;
+    
+}
+.stopwatch h1{
+    text-align: center;
+    font-size: 48px;
+    
+}
+
+li{
+    padding: 15px;
+}
+.stop{
+    background-color: antiquewhite;
+    border-radius: 50%;
+
+}
+.pause{
+    background-color: rgb(184, 207, 236);
+    border-radius: 100%;
+    border: 2px salmon;
+}
+.back{
+    background-color: antiquewhite;
+    border-radius: 50%;
+
+} 
+h5{
+    padding: 20px 20px;
+    margin-top: 140px;
+    font-size: 9px;
+    color: rgb(193, 34, 172);
+}
